@@ -11,10 +11,10 @@
 #import "BCAchievementNotificationView.h"
 #import <QuartzCore/CALayer.h>
 
-#define kBCAchievementDefaultSize   CGSizeMake(284.0f, 52.0f)
+#define kBCAchievementDefaultSize   CGSizeMake(300.f, 52.0f)
 #define kBCAchievementViewPadding 10.0f
 #define kBCAchievementAnimeTime     0.4f
-#define kBCAchievementDisplayTime   1.75f
+#define kBCAchievementDisplayTime   3.f
 
 static BCAchievementNotificationCenter *defaultHandler = nil;
 
