@@ -12,7 +12,7 @@
 #import <QuartzCore/CALayer.h>
 
 #define kBCAchievementDefaultSize   CGSizeMake(300.f, 52.0f)
-#define kBCAchievementViewPadding 50.0f
+#define kBCAchievementViewPadding (([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) ? 100.0f : 50.0f)
 #define kBCAchievementAnimeTime     0.4f
 #define kBCAchievementDisplayTime   3.f
 
